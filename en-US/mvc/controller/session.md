@@ -119,4 +119,4 @@ When SessionProvider is postgres，SessionSavePath is connection address for pos
 When SessionProvider is couchbase，SessionSavePath is connection address for couchbase which is using [couchbase](https://github.com/couchbaselabs/go-couchbase). For example：
 
 	beego.SessionProvider = "couchbase"
-	beego.SessionSavePath = "http://bucketname:bucketpass@myserver:8091/"		
+	beego.SessionSavePath = "http://localhost:8091/,default,default"		
